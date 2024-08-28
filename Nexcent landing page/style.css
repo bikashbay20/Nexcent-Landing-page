@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header */
+
+.header {
+    background: #ffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    margin: 0 auto;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header li {
+    margin: 0 25px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    display: inline;
+}
+
+.header a {
+    text-decoration: none;
+
+}
+
+.button {
+    background: #4CAF4F;
+    color: white;
+    border: 0px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.green {
+    color: #4CAF4F;
+}
+
+.hero-section {
+    display: flex;
+    background: #F5F7FA;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+}
+
+.frame1 {
+    text-align: center;
+    margin-left: 150px;
+}
+
+.illustration {
+    margin: 37px 0 0 250px;
+}
+
+/* clients */
+
+.clients {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* community */
+
+.community {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/* body */
+/* Unlock */
+
+.unlock {
+    display: flex;
+}
+
+.frame35 {
+    margin-left: 90px;
+    margin: 20px;
+}
+
+.frame6 {
+    margin-right: 30px;
+    margin: 10px 110px 0px 40px;
+    padding: 20px;
+}
+
+/* achievements */
+.text1 {
+    color: #4CAF4F;
+}
+
+.achievements {
+    background: #F5F7FA;
+    display: flex;
+    align-items: center;
+}
+
+.section-heading {
+    margin-left: 140px;
+    margin: 80px 40px 50px 90p;
+}
+
+.Counts {
+    margin: 40px;
+}
+
+/* calender */
+
+.calender {
+    display: flex;
+    margin: 20px;
+}
+
+
+/* customers */
+
+.customers {
+    margin-top: 9px;
+    background: #F5F7FA;
+}
+
+.customers img {
+    margin: 40px;
+    padding: 0;
+}
+
+.frame11 {
+    display: flex;
+    margin: 50px;
+
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.frame11 img {
+    width: 100%;
+    height: 100%;
+}
+
+.frame10 {
+    display: flex;
+    margin: -25px;
+
+}
+
+.frame10 img {
+    height: 50%;
+    width: 50%;
+}
+
+.aside {
+    margin-top: 50px;
+    color: #4CAF4F;
+}
+
+
+/* community update */
+
+.community p {
+    margin: 0 90px 0 90px;
+    font-size: 1 rem;
+
+}
+
+.frame15 {
+    display: flex;
+}
