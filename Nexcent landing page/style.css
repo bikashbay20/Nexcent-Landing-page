@@ -12,6 +12,8 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
 .header {
     background: #ffff;
     display: flex;
@@ -50,6 +52,10 @@
     margin-left: 40px;
 }
 
+/* Home */
+
+/* hero-container */
+
 .frame1 .text p {
     font-family: 'inter';
     color: #717171;
@@ -66,6 +72,7 @@
 
 .button {
     background: #4CAF4F;
+    border-radius: 5px;
     color: white;
     border: 0px;
     padding: 15px;
@@ -74,12 +81,12 @@
 
 .green {
     color: #4CAF4F;
-
 }
 
 
 .hero-section {
     display: flex;
+    flex-direction: row-reverse;
     background: #F5F7FA;
     align-items: center;
     margin: 50px;
@@ -92,13 +99,23 @@
 }
 
 .illustration {
-    margin: 37px 0 0 250px;
+   margin-left: 180px;
 }
 
 .illustration img {
     width: 100%;
     height: 100%;
     margin: 10px;
+} 
+
+
+.owl-dots {
+    position: absolute;
+    bottom: 150px;
+    left: 40%;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #4CAF4F !important;
 }
 
 /* clients */
@@ -219,9 +236,20 @@
 }
 
 .section-heading {
-    margin-left: 140px;
-    margin: 80px 40px 50px 90p;
+    right: 100px;
+    margin: 80px 200px 50px 90px;
     color: #263238;
+}
+.section-heading p {
+    line-height: 16.7px;
+    font-size: 12px;
+}
+
+
+.section-heading h2 {
+    margin-right: 150px;
+    font-size: 26px;
+    line-height: 30px;
 }
 
 .Counts {
@@ -305,7 +333,7 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px 50px 0 50px;
+    margin: 0px 50px 0 100px;
     padding: 0;
 
 }
@@ -457,7 +485,7 @@ margin: 10px;
 .dark-input {
     border-radius: 5px;
     border: 0;
-    background: #D9DBE1;
+    background: #ABBED1;
     width: 200px;
     height: 30px;
 
