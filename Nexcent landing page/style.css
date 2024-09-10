@@ -28,7 +28,11 @@
 .header ul {
     display: flex;
     align-items: center;
-
+    font-family: 'inter';
+    color: #717171;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
 }
 
 .header li {
@@ -36,16 +40,22 @@
     padding-bottom: 15px;
     margin-top: 25px;
     display: inline;
+   
 }
 
 .header a {
     text-decoration: none;
     color: #263238;
+    transition: 0.7s ease;
+}
 
+.header a:hover {
+    color: #4CAF4F;
 }
 
 .header-menu button {
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .logo {
@@ -64,11 +74,13 @@
     font-family: 'inter';
     color: #717171;
     font-size: 11.14px;
+    font-weight: 500;
     line-height: 16px;
 }
 
 .frame1 h1 {
     font-family: 'inter';
+    font-weight: 600;
     font-size: 44.5px;
     line-height: 53px;
     color: #4D4D4D;
@@ -81,6 +93,7 @@
     border: 0px;
     padding: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .green {
@@ -98,7 +111,8 @@
 }
 
 .frame1 {
-    text-align: center;
+    width: 30%;
+    text-align: end;
     margin-left: 150px;
 }
 
@@ -150,12 +164,14 @@
 .clients-container h2 {
     color: #4D4D4D;
     line-height: 31px;
+    font-weight: 600;
     font-size: 25px;
 }
 
 .clients-container p {
     font-family: 'inter';
     color: #717171;
+    font-weight: 500;
     font-size: 11.14px;
     line-height: 16px;
 }
@@ -170,12 +186,14 @@
 .container-community h2 {
     color: #4D4D4D;
     line-height: 31px;
+    font-weight: 600;
     font-size: 25px;
 }
 
 .container-community p {
     font-family: 'inter';
     color: #717171;
+    font-weight: 500;
     font-size: 11.14px;
     line-height: 16px;
 }
@@ -212,12 +230,14 @@ body {
 .frame60 h2 {
     color: #4D4D4D;
     line-height: 31px;
+    font-weight: 600;
     font-size: 25px;
 }
 
 .frame60 p {
     color: #717171;
     font-size: 9.74px;
+    font-weight: 500;
     line-height: 14px;
 }
 
@@ -244,13 +264,16 @@ body {
 
 .section-heading p {
     line-height: 16.7px;
+    font-weight: 500;
     font-size: 12px;
 }
 
 
 .section-heading h2 {
+    color: #4D4D4D;
     margin-right: 150px;
     font-size: 26px;
+    font-weight: 600;
     line-height: 30px;
 }
 
@@ -267,6 +290,7 @@ body {
 .frame5 h2 {
     color: #4D4D4D;
     line-height: 31px;
+    font-weight: 600;
     font-size: 25px;
 }
 
@@ -276,6 +300,7 @@ body {
     height: 20px; */
     color: #717171;
     font-size: 9.74px;
+    font-weight: 500;
     line-height: 14px;
     word-wrap: normal;
 }
@@ -325,6 +350,7 @@ body {
 
 .content p {
     color: #717171;
+    font-weight: 500;
     font-size: 11.74px;
     line-height: 16.7px;
 }
@@ -348,6 +374,7 @@ body {
 .aside {
     margin-top: 50px;
     color: #4CAF4F;
+    font-weight: 600;
 }
 
 
@@ -359,6 +386,7 @@ body {
 
 .container-update h2 {
     color: #4D4D4D;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -367,6 +395,7 @@ body {
     /* margin: 0 90px 0 90px; */
     font-family: 'inter';
     color: #717171;
+    font-weight: 500;
     font-size: 11.74px;
     line-height: 16.7px;
 }
@@ -397,7 +426,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-right: 0px; */
+    margin-right: 50px;
     width: 18rem;
     height: 10rem;
     position: relative;
@@ -425,19 +454,15 @@ body {
 .container-frame15 p {
     color: #717171;
     margin-top: 30px;
+    font-weight: 600;
     font-family: 'inter';
-    font-size: 17px;
+    font-size: 13px;
     line-height: 19px;
 
 }
 
-.container-content {
-    max-width: 1240px;
-    margin: 0 3px;
-}
-
 .auto-layout img {
-    width: 120%;
+    /* width: 120%; */
     height: 80%;
 
 }
@@ -485,19 +510,23 @@ footer {
 
 h2.text2 {
     top: 20px;
+    color: #263238;
     position: relative;
-    margin-top: 20px;
+    font-family: 'inter';
+    font-weight: 600;
+   
 }
 
 .frame16 h2 {
     margin-top: 20px;
+   
 }
 
 .frame16 button {
     margin-top: 3rem;
     margin-bottom: 3rem;
+   cursor: pointer;
 }
-
 
 .footer .container {
     max-width: 34rem;
@@ -524,7 +553,7 @@ h2.text2 {
 }
 
 .social-icons {
-    margin-top: 30px;
+    margin: 20px 0;
 
 }
 
@@ -540,21 +569,6 @@ h2.text2 {
 
 }
 
-/* .links {
-     display: flex;
-    align-items: center;
-    column-gap: 30px;
-   
-/* justify-content: space-between; */
-/* bottom: 80px;
-    column-gap: 80px; */
-/* font-family: 'inter';
-} */
-
-/* .links a {
-    text-decoration: none;
-    color: #F5F7FA;
-} */
 
 .col1 a {
     display: grid;
@@ -562,6 +576,11 @@ h2.text2 {
     margin: 15px;
     text-decoration: none;
     color: #F5F7FA;
+    transition: 0.7s ease;
+}
+
+.col1 a:hover {
+    color: #4CAF4F;
 }
 
 .col2 a {
@@ -571,9 +590,12 @@ h2.text2 {
     margin: 15px;
     text-decoration: none;
     color: #F5F7FA;
+    transition: 0.7s ease;
 }
 
-
+.col2 a:hover {
+    color: #4CAF4F;
+}
 
 
 .dark-input {
@@ -595,20 +617,54 @@ h2.text2 {
 
 
 /* Tablet and under  */
+@media (min-width:1024px) {
+    .container-content {
+    position: relative;
+    bottom: 130px;
+    width: 80%;
+    }
+    .auto-layout img {
+        /* width: 120%; */
+        height: 80%;
+    }
+    .frame1 {
+        width: 40%;
+    }
+}
+
+
+
 @media (max-width: 868px) {
 
     /* img {
         display: block;
         max-width: 100%;
     } */
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 150% !important;
+    }    
 
+     .frame60 {
+        position: relative;
+        
+        text-align: start;
+     }
+/* .hero-section {
+    margin: 50px auto;
+} */
     .container {
         max-width: 840px;
         margin: 0 auto;
     }
+    .container-update {
+        width: auto;
+        margin: 50px 50px;
+    }
 
     .flex-container {
         display: flex;
+        display: block;
         flex-wrap: wrap;
 
     }
@@ -660,7 +716,7 @@ h2.text2 {
     .container-frame15 {
         display: flex;
         flex-wrap: wrap;
-
+justify-content: center;
     }
 
     .header {
@@ -680,10 +736,14 @@ h2.text2 {
 
 
 
-@media (max-width: 500px) {
+@media (max-width:768px) {
     .manu-right {
         height: 110px;
     }
+    /* .frame60 {
+        margin-left: 0 !important;
+    } */
+
 
     .header-menu ul {
         padding: 10px;
